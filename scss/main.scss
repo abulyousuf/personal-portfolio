@@ -9,8 +9,8 @@
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.6;
-  // background: #fff;
-  background: $bg-color-1;
+  background: #fff;
+  // background: $bg-color-1;
 }
 
 a {
@@ -30,4 +30,22 @@ h4 {
 
 img {
   width: 100%;
+}
+
+// Logo
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+// Header
+#header {
+  // Header Home
+  &-home {
+    background: $bg-color-1;
+    height: 100vh;
+    color: #fff;
+  }
 }
