@@ -102,6 +102,11 @@ img {
     #header-home .header-content span {
       color: #ade8f4; }
 
+#header-inner {
+  background: #1d3557;
+  height: 5.5rem;
+  border-bottom: 3px solid #ffbc00; }
+
 #main-footer {
   background: #333;
   color: #fff;
