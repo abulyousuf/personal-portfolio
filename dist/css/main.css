@@ -28,6 +28,22 @@ a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   background-color: #ffbc00; }
 
+.bg-main {
+  background: #ffbc00;
+  color: #fff; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #000; }
+
+.bg-medium {
+  background: #ccc;
+  color: #000; }
+
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
@@ -35,6 +51,24 @@ input[class^="btn-"]:hover {
 
 .text-center {
   text-align: center; }
+
+.py {
+  padding: 3rem 0; }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #ffbc00;
+  display: block;
+  margin: 0 auto 1rem auto; }
 
 * {
   margin: 0;
@@ -127,3 +161,16 @@ img {
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
+
+#about .about-info {
+  display: grid;
+  grid-template-areas: "bioimage bio bio";
+  gap: 1.2rem; }
+
+#about .bio-image {
+  grid-area: bioimage; }
+
+#about .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }
