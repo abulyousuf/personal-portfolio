@@ -40,6 +40,10 @@ img {
   text-transform: uppercase;
 }
 
+.accent-color {
+  color: $main-color;
+}
+
 // Main Nav
 #main-nav {
   display: flex;

@@ -66,6 +66,9 @@ img {
   color: #fff;
   text-transform: uppercase; }
 
+.accent-color {
+  color: #ffbc00; }
+
 #main-nav {
   display: flex;
   justify-content: space-between;
