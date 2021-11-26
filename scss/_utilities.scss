@@ -63,11 +63,16 @@ input[class^="btn-"]:hover {
   }
 }
 
-.lead {
+.main-lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
   // color: #33ca7f;
   color: #f8333c;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 .text-center {
