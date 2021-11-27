@@ -45,7 +45,8 @@ input[class^="btn-"]:hover {
   color: #000; }
 
 .main-lead {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 2rem;
   color: #f8333c; }
 
@@ -226,8 +227,6 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
-    #header-home .header-content span {
-      color: #33ca7f; }
 
 #header-inner {
   background: #1d1d1d;
