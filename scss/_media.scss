@@ -14,4 +14,9 @@
       height: 10rem;
     }
   }
+
+  // Stack Grid Columns
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
