@@ -1,3 +1,11 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+  // Stack Grid Columns
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 // Smartphones
 @media (max-width: 600px) {
   #main-nav {
@@ -15,11 +23,6 @@
     }
   }
 
-  // Stack Grid Columns
-  .projects {
-    grid-template-columns: 1fr;
-  }
-
   // About
   #about {
     .about-info {
@@ -27,6 +30,11 @@
         "bioimage"
         "bio";
     }
+  }
+
+  // Stack Grid Columns
+  .projects {
+    grid-template-columns: 1fr;
   }
 
   // Contact
