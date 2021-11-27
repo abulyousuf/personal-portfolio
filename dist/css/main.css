@@ -189,8 +189,6 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -200,6 +198,7 @@ img {
 #main-nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 1rem; }
   #main-nav ul {
     display: flex; }
@@ -295,3 +294,10 @@ img {
       padding: 0.5rem; }
       #main-footer .footer-content .social .fab:hover {
         background: #ffbc00; }
+
+@media (max-width: 600px) {
+  #main-nav {
+    flex-direction: column;
+    align-items: center; }
+    #main-nav li {
+      padding: 1rem; } }
