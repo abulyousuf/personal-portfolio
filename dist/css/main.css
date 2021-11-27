@@ -235,7 +235,8 @@ img {
 #about .about-info {
   display: grid;
   grid-template-areas: "bioimage bio bio";
-  gap: 1.2rem; }
+  gap: 1.2rem;
+  align-items: center; }
 
 #about .bio-image {
   grid-area: bioimage; }
@@ -246,7 +247,6 @@ img {
   padding: 0.8rem; }
 
 #about-skills .skills {
-  text-align: center;
   text-transform: none; }
 
 #contact-a .text-fields {

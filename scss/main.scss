@@ -114,6 +114,8 @@ img {
     display: grid;
     grid-template-areas: "bioimage bio bio";
     gap: 1.2rem;
+    align-items: center;
+    // justify-items: center;
   }
 
   .bio-image {
@@ -129,7 +131,7 @@ img {
 
 #about-skills {
   .skills {
-    text-align: center;
+    // text-align: center;
     text-transform: none;
   }
 }
