@@ -19,4 +19,13 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  // About
+  #about {
+    .about-info {
+      grid-template-areas:
+        "bioimage"
+        "bio";
+    }
+  }
 }
